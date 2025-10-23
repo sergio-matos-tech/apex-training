@@ -1,0 +1,10 @@
+Datetime myDateTime = Datetime.newInstance(2025, 3, 12, 8, 10, 00);
+System.debug('original=' + myDateTime);
+Datetime myDateTimePlusTwo = myDateTime.addHours(2);
+System.debug('plus2hours=' + myDateTimePlusTwo);
+Datetime myDatePlusSevenDays = myDateTime.addDays(7);
+System.debug('plus7days=' + myDatePlusSevenDays);
+Datetime myDateTimePlusThreeMonths = myDateTime.addMonths(3);
+System.debug('plus3months=' + myDateTimePlusThreeMonths);
+Datetime myDateTimePlusOneYear = myDateTime.addYears(1);
+System.debug('plus1year=' + myDateTimePlusOneYear);
